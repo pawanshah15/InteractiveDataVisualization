@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE331650-A1D7-FD28-72DD-CF86FEF65258}</ProjectGuid>
+    <ProjectGuid>{712FDB35-759A-52E3-7BB1-01BA17746CCE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,14 +61,17 @@
     <Analyzer Include="C:\Program Files\Unity 6000.0.58f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MouseClicker.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\TouchscreenInput.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Scripts\HorseManager.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\GOInteraction.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />

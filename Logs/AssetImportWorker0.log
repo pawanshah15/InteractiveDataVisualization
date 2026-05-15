@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 16003 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-05-14T07:18:48Z
+Date: 2026-05-15T12:12:33Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
@@ -12,11 +12,11 @@ C:\Program Files\Unity 6000.0.58f2\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ASUS/interactive sales 3d
+C:/Users/ASUS/OneDrive/Documents/GitHub/InteractiveDataVisualization
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58114
+63283
 -job-worker-count
 5
 -background-job-worker-count
@@ -25,8 +25,8 @@ Logs/AssetImportWorker0.log
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/ASUS/interactive sales 3d
-C:/Users/ASUS/interactive sales 3d
+Successfully changed project path to: C:/Users/ASUS/OneDrive/Documents/GitHub/InteractiveDataVisualization
+C:/Users/ASUS/OneDrive/Documents/GitHub/InteractiveDataVisualization
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,12 +62,12 @@ C:/Users/ASUS/interactive sales 3d
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17600]  Target information:
+Player connection [5356]  Target information:
 
-Player connection [17600]  * "[IP] 100.68.178.127 [Port] 0 [Flags] 2 [Guid] 3726991562 [EditorId] 3726991562 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJ03ALC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5356]  * "[IP] 100.68.178.127 [Port] 0 [Flags] 2 [Guid] 2064655902 [EditorId] 2064655902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJ03ALC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17600] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5356] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5356] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,11 +79,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.58f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ASUS/interactive sales 3d/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/OneDrive/Documents/GitHub/InteractiveDataVisualization/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -95,45 +95,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.58f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.58f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005624 seconds.
-- Loaded All Assemblies, in  1.061 seconds
+Registered in 0.008659 seconds.
+- Loaded All Assemblies, in  1.225 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.856 seconds
-Domain Reload Profiling: 1913ms
-	BeginReloadAssembly (343ms)
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 2611ms
+	BeginReloadAssembly (404ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (139ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (337ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (441ms)
-			TypeCache.Refresh (438ms)
-				TypeCache.ScanAssembly (408ms)
+		AnalyzeDomain (503ms)
+			TypeCache.Refresh (498ms)
+				TypeCache.ScanAssembly (463ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (860ms)
+	FinalizeReload (1393ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
+		SetupLoadedEditorAssemblies (1232ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (71ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (149ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -143,11 +143,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.073 seconds
+- Loaded All Assemblies, in  3.208 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.35 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -157,67 +157,91 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 13.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.73 ms, found 4 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.539 seconds
-Domain Reload Profiling: 4600ms
-	BeginReloadAssembly (571ms)
+- Finished resetting the current domain, in  3.631 seconds
+Domain Reload Profiling: 6827ms
+	BeginReloadAssembly (640ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (102ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (130ms)
 	RebuildNativeTypeToScriptingClass (32ms)
-	initialDomainReloadingComplete (134ms)
-	LoadAllAssembliesAndSetupDomain (1220ms)
-		LoadAssemblies (1020ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (2253ms)
+		LoadAssemblies (1649ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (526ms)
-			TypeCache.Refresh (384ms)
-				TypeCache.ScanAssembly (357ms)
-			BuildScriptInfoCaches (101ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (2540ms)
+		AnalyzeDomain (971ms)
+			TypeCache.Refresh (771ms)
+				TypeCache.ScanAssembly (703ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3633ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2054ms)
+		SetupLoadedEditorAssemblies (2787ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (29ms)
-			BeforeProcessingInitializeOnLoad (322ms)
-			ProcessInitializeOnLoadAttributes (1419ms)
-			ProcessInitializeOnLoadMethodAttributes (217ms)
-			AfterProcessingInitializeOnLoad (53ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (530ms)
+			ProcessInitializeOnLoadAttributes (1921ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (24ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6785 unused Assets / (7.8 MB). Loaded Objects now: 7435.
-Memory consumption went from 133.9 MB to 126.1 MB.
-Total: 24.709000 ms (FindLiveObjects: 1.455800 ms CreateObjectMapping: 1.500500 ms MarkObjects: 11.479100 ms  DeleteObjects: 10.268300 ms)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6770 unused Assets / (5.1 MB). Loaded Objects now: 7450.
+Memory consumption went from 129.5 MB to 124.4 MB.
+Total: 24.478900 ms (FindLiveObjects: 2.054900 ms CreateObjectMapping: 1.496400 ms MarkObjects: 13.197400 ms  DeleteObjects: 7.727200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3046.473483 seconds.
+  Time since last request: 1179.795204 seconds.
   path: Assets/bar data/crosshair (2).png
   artifactKey: Guid(960b93a699a558a41bb9f7785d86b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bar data/crosshair (2).png using Guid(960b93a699a558a41bb9f7785d86b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '985223aeff7384cf1a420d50d4b37304') in 0.1658206 seconds
+Start importing Assets/bar data/crosshair (2).png using Guid(960b93a699a558a41bb9f7785d86b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5307a1867918a9e6400bbd995df96302') in 0.2016296 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/bar data/WhatsApp Image 2026-04-29 at 10.45.34.jpeg
+  artifactKey: Guid(86f048281884ced478eaeaf77f53a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bar data/WhatsApp Image 2026-04-29 at 10.45.34.jpeg using Guid(86f048281884ced478eaeaf77f53a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef741aeb3613ecd696ba342daba16ae6') in 0.0352747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.195564 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png
+  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ebd4ba34d6a5a07efd823686fe6f873') in 0.284392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png
+  artifactKey: Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png using Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69beb7a7393d7f73a1ee5535f726bf2') in 0.0417329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Prepare
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.119 seconds
+- Loaded All Assemblies, in  0.911 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.63 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -227,44 +251,1087 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.251 seconds
-Domain Reload Profiling: 2373ms
-	BeginReloadAssembly (322ms)
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (506ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6766 unused Assets / (5.2 MB). Loaded Objects now: 7474.
+Memory consumption went from 149.9 MB to 144.7 MB.
+Total: 20.038600 ms (FindLiveObjects: 1.675100 ms CreateObjectMapping: 1.433700 ms MarkObjects: 9.084400 ms  DeleteObjects: 7.842800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6753 unused Assets / (4.3 MB). Loaded Objects now: 7473.
+Memory consumption went from 150.1 MB to 145.8 MB.
+Total: 32.902000 ms (FindLiveObjects: 2.004200 ms CreateObjectMapping: 1.465100 ms MarkObjects: 13.659100 ms  DeleteObjects: 15.768500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.312 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.123 seconds
+Domain Reload Profiling: 2437ms
+	BeginReloadAssembly (332ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (45ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (697ms)
-		LoadAssemblies (587ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (874ms)
+		LoadAssemblies (665ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (265ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (234ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1251ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (308ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1123ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (910ms)
+		SetupLoadedEditorAssemblies (820ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (632ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 4.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6780 unused Assets / (7.4 MB). Loaded Objects now: 7457.
-Memory consumption went from 149.3 MB to 141.8 MB.
-Total: 22.710400 ms (FindLiveObjects: 1.943400 ms CreateObjectMapping: 1.651900 ms MarkObjects: 10.610800 ms  DeleteObjects: 8.500600 ms)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.0 MB). Loaded Objects now: 7476.
+Memory consumption went from 149.9 MB to 145.0 MB.
+Total: 19.800900 ms (FindLiveObjects: 1.347100 ms CreateObjectMapping: 1.852300 ms MarkObjects: 9.308400 ms  DeleteObjects: 7.288200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6752 unused Assets / (5.3 MB). Loaded Objects now: 7475.
+Memory consumption went from 150.1 MB to 144.7 MB.
+Total: 24.853100 ms (FindLiveObjects: 2.128100 ms CreateObjectMapping: 1.920600 ms MarkObjects: 13.201200 ms  DeleteObjects: 7.600000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.230 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 2317ms
+	BeginReloadAssembly (328ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (268ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (759ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6764 unused Assets / (5.0 MB). Loaded Objects now: 7478.
+Memory consumption went from 150.0 MB to 145.0 MB.
+Total: 20.492100 ms (FindLiveObjects: 1.652100 ms CreateObjectMapping: 1.797800 ms MarkObjects: 9.986700 ms  DeleteObjects: 7.052600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6753 unused Assets / (5.0 MB). Loaded Objects now: 7479.
+Memory consumption went from 150.1 MB to 145.1 MB.
+Total: 21.370400 ms (FindLiveObjects: 1.396100 ms CreateObjectMapping: 1.072800 ms MarkObjects: 11.541700 ms  DeleteObjects: 7.355500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.352 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.89 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.408 seconds
+Domain Reload Profiling: 2764ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (918ms)
+		LoadAssemblies (716ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1409ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1067ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (287ms)
+			ProcessInitializeOnLoadAttributes (659ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 5.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.2 MB). Loaded Objects now: 7482.
+Memory consumption went from 150.0 MB to 144.8 MB.
+Total: 21.291700 ms (FindLiveObjects: 1.654100 ms CreateObjectMapping: 1.443000 ms MarkObjects: 10.624600 ms  DeleteObjects: 7.564100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1115.793230 seconds.
+  path: Assets/Scripts/NewMonoBehaviourScript.cs
+  artifactKey: Guid(2f280aaa8ed9a984fb09f51f4536d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewMonoBehaviourScript.cs using Guid(2f280aaa8ed9a984fb09f51f4536d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e7f6b4ff6f71a362a9b58eaf437a42') in 0.1779415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6753 unused Assets / (4.2 MB). Loaded Objects now: 7482.
+Memory consumption went from 150.1 MB to 145.9 MB.
+Total: 45.231200 ms (FindLiveObjects: 1.447500 ms CreateObjectMapping: 1.417200 ms MarkObjects: 35.151500 ms  DeleteObjects: 7.211300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.550 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 50.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.671 seconds
+Domain Reload Profiling: 8232ms
+	BeginReloadAssembly (615ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (2699ms)
+		LoadAssemblies (1467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1544ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (1410ms)
+			ResolveRequiredComponents (51ms)
+	FinalizeReload (4672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (321ms)
+			ProcessInitializeOnLoadAttributes (881ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.0 MB). Loaded Objects now: 7485.
+Memory consumption went from 150.0 MB to 145.0 MB.
+Total: 25.334200 ms (FindLiveObjects: 1.035900 ms CreateObjectMapping: 2.512700 ms MarkObjects: 13.604100 ms  DeleteObjects: 8.176500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.402940 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(2f280aaa8ed9a984fb09f51f4536d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(2f280aaa8ed9a984fb09f51f4536d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8151798d6a2bf77209f9ee3c1fac6a9') in 0.0051066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6753 unused Assets / (2.8 MB). Loaded Objects now: 7485.
+Memory consumption went from 150.2 MB to 147.4 MB.
+Total: 31.270600 ms (FindLiveObjects: 0.872200 ms CreateObjectMapping: 0.732300 ms MarkObjects: 18.217400 ms  DeleteObjects: 11.446300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.730 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.913 seconds
+Domain Reload Profiling: 7645ms
+	BeginReloadAssembly (651ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (160ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1849ms)
+		LoadAssemblies (1449ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (699ms)
+			TypeCache.Refresh (62ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (580ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (4915ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (27ms)
+			BeforeProcessingInitializeOnLoad (906ms)
+			ProcessInitializeOnLoadAttributes (2915ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (88ms)
+Refreshing native plugins compatible for Editor in 7.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (3.0 MB). Loaded Objects now: 7488.
+Memory consumption went from 150.1 MB to 147.1 MB.
+Total: 35.741400 ms (FindLiveObjects: 1.582200 ms CreateObjectMapping: 1.941800 ms MarkObjects: 19.232400 ms  DeleteObjects: 12.982000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6753 unused Assets / (5.1 MB). Loaded Objects now: 7488.
+Memory consumption went from 150.2 MB to 145.2 MB.
+Total: 20.085700 ms (FindLiveObjects: 0.950000 ms CreateObjectMapping: 0.979000 ms MarkObjects: 11.866500 ms  DeleteObjects: 6.284600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.987 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.746 seconds
+Domain Reload Profiling: 1734ms
+	BeginReloadAssembly (330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (747ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.2 MB). Loaded Objects now: 7491.
+Memory consumption went from 150.1 MB to 144.9 MB.
+Total: 14.684300 ms (FindLiveObjects: 1.196700 ms CreateObjectMapping: 0.782200 ms MarkObjects: 7.241200 ms  DeleteObjects: 5.460800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 24.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6753 unused Assets / (5.3 MB). Loaded Objects now: 7491.
+Memory consumption went from 150.3 MB to 145.0 MB.
+Total: 47.510900 ms (FindLiveObjects: 1.479100 ms CreateObjectMapping: 2.418600 ms MarkObjects: 33.687800 ms  DeleteObjects: 9.923300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.500 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.910 seconds
+Domain Reload Profiling: 5410ms
+	BeginReloadAssembly (570ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (1658ms)
+		LoadAssemblies (1226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (736ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (576ms)
+			ResolveRequiredComponents (100ms)
+	FinalizeReload (2911ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (616ms)
+			ProcessInitializeOnLoadAttributes (1468ms)
+			ProcessInitializeOnLoadMethodAttributes (227ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
+Refreshing native plugins compatible for Editor in 6.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (3.5 MB). Loaded Objects now: 7494.
+Memory consumption went from 150.2 MB to 146.7 MB.
+Total: 28.121800 ms (FindLiveObjects: 2.386800 ms CreateObjectMapping: 1.635500 ms MarkObjects: 15.835900 ms  DeleteObjects: 8.261900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.918 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.811 seconds
+Domain Reload Profiling: 1731ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (611ms)
+		LoadAssemblies (480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6765 unused Assets / (5.1 MB). Loaded Objects now: 7497.
+Memory consumption went from 150.2 MB to 145.1 MB.
+Total: 20.000500 ms (FindLiveObjects: 1.467900 ms CreateObjectMapping: 1.795700 ms MarkObjects: 9.942300 ms  DeleteObjects: 6.791000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6754 unused Assets / (5.2 MB). Loaded Objects now: 7498.
+Memory consumption went from 150.3 MB to 145.1 MB.
+Total: 21.941700 ms (FindLiveObjects: 1.282100 ms CreateObjectMapping: 0.960000 ms MarkObjects: 12.965200 ms  DeleteObjects: 6.731300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.230 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.737 seconds
+Domain Reload Profiling: 2978ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (840ms)
+		LoadAssemblies (708ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (101ms)
+Refreshing native plugins compatible for Editor in 4.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6766 unused Assets / (5.3 MB). Loaded Objects now: 7501.
+Memory consumption went from 150.2 MB to 144.9 MB.
+Total: 17.044000 ms (FindLiveObjects: 1.094800 ms CreateObjectMapping: 1.574300 ms MarkObjects: 8.784200 ms  DeleteObjects: 5.588200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6754 unused Assets / (5.3 MB). Loaded Objects now: 7501.
+Memory consumption went from 150.4 MB to 145.1 MB.
+Total: 20.129600 ms (FindLiveObjects: 1.585800 ms CreateObjectMapping: 1.702700 ms MarkObjects: 9.714000 ms  DeleteObjects: 7.122900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.451 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.78 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.142 seconds
+Domain Reload Profiling: 9589ms
+	BeginReloadAssembly (546ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (6717ms)
+		LoadAssemblies (1257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5740ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (5602ms)
+			ResolveRequiredComponents (75ms)
+	FinalizeReload (2143ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (460ms)
+			ProcessInitializeOnLoadAttributes (836ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 7.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6766 unused Assets / (3.5 MB). Loaded Objects now: 7504.
+Memory consumption went from 150.3 MB to 146.7 MB.
+Total: 19.730100 ms (FindLiveObjects: 1.444000 ms CreateObjectMapping: 1.786900 ms MarkObjects: 10.723700 ms  DeleteObjects: 5.773300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 482.237768 seconds.
+  path: Assets/Scripts/MouseClicker.cs
+  artifactKey: Guid(04607e1a4df115f4fab81953bf0b97cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseClicker.cs using Guid(04607e1a4df115f4fab81953bf0b97cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd2bc6daad5c6e1863e7c7a8892325e7') in 0.17342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6755 unused Assets / (4.6 MB). Loaded Objects now: 7505.
+Memory consumption went from 150.4 MB to 145.8 MB.
+Total: 21.392900 ms (FindLiveObjects: 1.211500 ms CreateObjectMapping: 1.075300 ms MarkObjects: 13.384200 ms  DeleteObjects: 5.718400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.187 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.307 seconds
+Domain Reload Profiling: 2495ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (753ms)
+		LoadAssemblies (648ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (999ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Refreshing native plugins compatible for Editor in 4.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6767 unused Assets / (5.0 MB). Loaded Objects now: 7508.
+Memory consumption went from 150.3 MB to 145.4 MB.
+Total: 18.435900 ms (FindLiveObjects: 2.063200 ms CreateObjectMapping: 1.106000 ms MarkObjects: 8.923200 ms  DeleteObjects: 6.340900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 129.413673 seconds.
+  path: Assets/Scripts/GOInteraction.cs
+  artifactKey: Guid(6011c2dbda572bc42a9bdf8316e50327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GOInteraction.cs using Guid(6011c2dbda572bc42a9bdf8316e50327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7770d10075c5ec1269fc643fb8a3c0ae') in 0.0298038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6755 unused Assets / (4.4 MB). Loaded Objects now: 7508.
+Memory consumption went from 150.5 MB to 146.1 MB.
+Total: 30.748700 ms (FindLiveObjects: 1.435900 ms CreateObjectMapping: 1.936800 ms MarkObjects: 12.987700 ms  DeleteObjects: 14.384600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.418937 seconds.
+  path: Assets/Scripts/GOInteraction.cs
+  artifactKey: Guid(6011c2dbda572bc42a9bdf8316e50327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GOInteraction.cs using Guid(6011c2dbda572bc42a9bdf8316e50327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.04767 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gointeraction.cs in SourceAssetDB has modification time of '2026-05-15T12:42:26.9245387Z' while content on disk has modification time of '2026-05-15T12:42:27.1299751Z'
+  ERROR: Build asset version error: assets/scripts/gointeraction.cs in SourceAssetDB has modification time of '2026-05-15T12:42:26.9245387Z' while content on disk has modification time of '2026-05-15T12:42:27.1299751Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/GOInteraction.cs
+  artifactKey: Guid(6011c2dbda572bc42a9bdf8316e50327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GOInteraction.cs using Guid(6011c2dbda572bc42a9bdf8316e50327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '238d563b4cfbb6503b1e640183b6ed9a') in 0.0015535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.950 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.073 seconds
+Domain Reload Profiling: 2026ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (269ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1074ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (713ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6767 unused Assets / (5.2 MB). Loaded Objects now: 7511.
+Memory consumption went from 150.4 MB to 145.1 MB.
+Total: 18.000500 ms (FindLiveObjects: 1.207000 ms CreateObjectMapping: 1.268800 ms MarkObjects: 9.915500 ms  DeleteObjects: 5.607000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6755 unused Assets / (5.1 MB). Loaded Objects now: 7511.
+Memory consumption went from 150.5 MB to 145.5 MB.
+Total: 540.483400 ms (FindLiveObjects: 1.126200 ms CreateObjectMapping: 1.385700 ms MarkObjects: 529.524100 ms  DeleteObjects: 8.442700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.215 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.52 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.263 seconds
+Domain Reload Profiling: 2483ms
+	BeginReloadAssembly (324ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (793ms)
+		LoadAssemblies (624ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (277ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1032ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (698ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 4.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6767 unused Assets / (5.1 MB). Loaded Objects now: 7514.
+Memory consumption went from 150.4 MB to 145.3 MB.
+Total: 21.468800 ms (FindLiveObjects: 1.234800 ms CreateObjectMapping: 1.453800 ms MarkObjects: 12.415500 ms  DeleteObjects: 6.362500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 364.865599 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.12.jpeg
+  artifactKey: Guid(214d1949478fed34e848c6921b8ddde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.12.jpeg using Guid(214d1949478fed34e848c6921b8ddde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e91e9b4eb2ccdf7548d3d1f2475f95da') in 0.1302428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.15.jpeg
+  artifactKey: Guid(180f285856c50cb4c800b4251688bff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.15.jpeg using Guid(180f285856c50cb4c800b4251688bff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bd9b9dcee5f7e3d79f172684f2407fd') in 0.0168825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.14 (1).jpeg
+  artifactKey: Guid(51ba3996d4aa5f84c97c31bb3db1b64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.14 (1).jpeg using Guid(51ba3996d4aa5f84c97c31bb3db1b64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0169dd64e0584d622a5e5f62800b19c') in 0.0139798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.13 (1).jpeg
+  artifactKey: Guid(f0688a78cb6f4fd4ca42e3369d05c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.13 (1).jpeg using Guid(f0688a78cb6f4fd4ca42e3369d05c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '742435b843519ed2c07e0998518e4a87') in 0.0125585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.12 (1).jpeg
+  artifactKey: Guid(1d454db2a74aa6145b9bd091a42ce698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.12 (1).jpeg using Guid(1d454db2a74aa6145b9bd091a42ce698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4dfe706991f4cfafb16deac9f4d5abf') in 0.0156094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.15 (1).jpeg
+  artifactKey: Guid(253e17d1fcbbd1247a3d9afbc7e33c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.15 (1).jpeg using Guid(253e17d1fcbbd1247a3d9afbc7e33c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12ba124b3fb22cbc5e48ac68daf03c82') in 0.0128032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.13 (2).jpeg
+  artifactKey: Guid(a799f3948e9536941806ef0acfc3ad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.13 (2).jpeg using Guid(a799f3948e9536941806ef0acfc3ad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7f8baa53d176e0c4c0784db56f20992') in 0.0137097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.406289 seconds.
+  path: Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.10.jpeg
+  artifactKey: Guid(40ff20941a454c144a7a6cb1fca03043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walldata/WhatsApp Image 2026-05-07 at 20.26.10.jpeg using Guid(40ff20941a454c144a7a6cb1fca03043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90063375c24d50f3438eed0ae1506beb') in 0.0284049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
